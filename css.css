@@ -1,0 +1,80 @@
+
+body {
+  background-color: pink;
+  font-family: Verdana;
+  margin: 0;
+}
+
+/* MENU */
+.menu {
+  background-color: hotpink;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.menu a:hover {
+  color: deeppink;
+}
+
+/* ESPACIO PARA MENU */
+.espacio {
+  height: 100px;
+}
+
+/* BANNER */
+.banner {
+  width: 1400px;
+  height: 400px;
+}
+
+/* TITULO */
+.titulo {
+  text-align: center;
+  color: white;
+}
+
+/* TEXTO */
+.texto {
+  color: green;
+  font-size: 14px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+/* BOTON */
+button {
+  background-color: hotpink;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: deeppink;
+}
+
+/* JUEGO CENTRADO (CLAVE) */
+.juego {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.juego iframe {
+  display: block;
+  margin: 0 auto;
+}
